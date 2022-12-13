@@ -1,4 +1,4 @@
-# Android-Coop-Achievement
+# Android-Coop-Achievement-App
 [![forthebadge](http://forthebadge.com/images/badges/made-with-java.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 - [Demo video](https://youtu.be/c3wQJ9Rmlvk)

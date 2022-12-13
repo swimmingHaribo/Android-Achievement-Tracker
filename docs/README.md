@@ -5,10 +5,16 @@
 - Works on 5", 6", 10" sized screens
 
 ## Installation
+
+### Option 1: 
+``` git clone https://github.com/swimmingHaribo/Android-Coop-Achievement.git ```
+
+### Option 2:
 1. [Download Android Studio](https://developer.android.com/studio)
 2. Download the zip file
 3. Select a device (eg. Pixel 2)
 4. Time to run it!
+
 
 ## Feature
 

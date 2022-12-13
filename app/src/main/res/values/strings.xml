@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">Configurations</string>
+    <string name="about">About</string>
+    <string name="addNewGame">Add New Game</string>
+    <string name="gameHistory">Game History</string>
+    <string name="viewAchievements">View Achievements</string>
+
+    <string name="info_content">
+        \nThe creators of this app are team Sodium.
+    </string>
+    <string name="description_content">
+        \nWe have an easy way to save your plays for the competitive games you play with your friends!\n
+        \nTo get started, click on the ‘plus’ button in the Configurations screen and add your favourite games.\n
+        \nWhen you want to add a game play, press the game from the list and click add new game where you can set the number of players for a game, choose the game difficulty level and your favourite theme, and click on the ‘set’ button to add the score for each player and see the achievement level you earned.\n
+        \nWhen you want to edit a game play, press the game from the list in Game history and edit the score for each player and see the new achievement level you earned.\n
+        \nYou can also view history, view expecting achievement levels for a game, edit and delete a game configuration.\n
+        \nTo view how many times you have earned each achievement level, you can look at a graph displaying your achievement statistics.\n
+    </string>
+    <string name="sources_content">
+        \n<a href="https://www.idownloadblog.com/2021/05/09/multicolor-gradient-wallpapers-pack-iphone/">appbackground.png</a>\n
+        \n<a href="https://www.pinterest.ca/pin/759701030882552315/">fruitsbackground.png</a>\n
+        \n<a href="https://linasidorova.com/projects/lVdbn5?album_id=795886">fantasybackground.png</a>\n
+        \n<a href="https://coolwallpapers.me/6106355-rogue-one-a-star-wars-story-movies-star-wars-stormtrooper.html">starwarsbackground.png</a>\n
+        \n<a href="https://www.miro.com/">ic_main_msg</a>\n
+        \n<a href="https://www.miro.com/">ic_history_msg</a>\n
+        \n<a href="https://pixabay.com/sound-effects/fairy-sound-6469/">fairysound.mp3</a>\n
+        \n<a href="https://www.youtube.com/watch?v=RQELlsfcZAM">fairysound.mp3</a>\n
+        \n<a href="https://pixabay.com/sound-effects/lightsaber-ignition-6816/">lightsaber.mp3</a>\n
+        \n<a href="https://www.clipartmax.com/download/m2K9A0m2A0K9b1A0_red-apple-fruits-png-transparent-images-clipart-icons-transparent-background-apple-clipart/#">appleicon.png</a>\n
+        \n<a href="https://www.vectorstock.com/royalty-free-vector/mythical-creatures-and-fairytale-animals-set-vector-30418440">fantasyimage.png</a>\n
+        \n<a href="https://uxwing.com/star-icon/">staricon.png</a>\n
+        \n<a href="https://www.kibrispdr.org/detail-1/star-wars-characters-cartoon-pictures.html">starwarsimage.png</a>\n
+        \n<a href="https://www.clipartmax.com/download/m2i8G6A0K9N4d3m2_yoda-chewbacca-anakin-skywalker-luke-skywalker-star-wars-cute-cartoons/">yodaicon.png</a>\n
+        \n<a href="https://commons.wikimedia.org/wiki/File:Cross_red_circle.svg">closebutton.png</a>\n
+        \n<a href="https://www.youtube.com/watch?v=pi1tq-bp7uA">Youtube Tutorial for Graph (Part 1)</a>\n
+        \n<a href="https://www.youtube.com/watch?v=H6QxMBI2QH4">Youtube Tutorial for Graph (Part 2)</a>\n
+        \n<a href="https://weeklycoding.com/mpandroidchart-documentation/">MPAndroid Chart Documentation</a>\n
+        \n<a href="https://stackoverflow.com/a/69951831">Settings.gradle for MPAndroid Chart</a>\n
+        \n<a href="https://stackoverflow.com/questions/13562429/how-many-ways-to-convert-bitmap-to-string-and-vice-versa">Bitmap to String conversion and back</a>\n
+    </string>
+    <string name="achievement_themes_plus_levels_content">
+        \n
+        <b>Fruits Theme:</b>\n\n
+        Beautiful Bananas\n\n
+        Wonderful Watermelons\n\n
+        Outstanding Oranges\n\n
+        Admirable Apricots\n\n
+        Good Grapefruits\n\n
+        Amazing Apples\n\n
+        Great Grapes\n\n
+        Better Blueberries\n\n
+        Super Strawberries\n\n
+        Perfect Peaches\n\n\n
+
+        <b>Fantasy Theme:</b> \n\n
+        Stinky Orc\n\n
+        Friendly Troll\n\n
+        Grumpy Dwarf\n\n
+        High Elf\n\n
+        Powerful Lich\n\n
+        Golden Pegasus\n\n
+        Ferocious Minotaur\n\n
+        Majestic Unicorn\n\n
+        Shadow Wyvern\n\n
+        Azure Dragon\n\n\n
+
+        <b>Star Wars Theme:</b> \n\n
+        Grogu\n\n
+        Chewbacca\n\n
+        Anakin\n\n
+        Cara Dune\n\n
+        Ahsoka Tano\n\n
+        Luke Skywalker\n\n
+        Yoda\n\n
+        Darth Vader\n\n
+        Asajj Ventress\n\n
+        Leia Organa\n\n
+    </string>
+    <string name="num_player">Enter the number of players:</string>
+    <string name="selected_config_position">selected position</string>
+    <string name="empty_achievements_msg">Enter number of players to see achievement levels with range</string>
+    <string name="invalid_players_msg">Number of players cannot be less than 1. Please try again.</string>
+    <string name="greaterCombinedScoreMsg">Invalid input: Combined score can not be greater than the maximum score</string>
+    <string name="achievement">Achievements</string>
+    <string name="description">Description</string>
+    <string name="sources">Sources</string>
+    <string name="info">Info</string>
+    <string name="emptyOrInvalid">Your input is empty or invalid</string>
+    <string name="OK">Ok</string>
+    <string name="scoreTooHigh">Score Too High</string>
+    <string name="scoreTooLow">Score Too Low</string>
+    <string name="scoreTooHighMsg">Sorry, the score is too high. Please try a smaller number</string>
+    <string name="scoreTooLowMsg">Sorry, the score is too low. Please try a bigger number</string>
+    <string name="PlayerMinimum1">Invalid input: 1 player minimum</string>
+    <string name="delete_msg">Are you sure you want to delete?</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="gameName">game name</string>
+    <string name="gameName2">game name2</string>
+    <string name="save_config_manager">Save config manager</string>
+    <string name="my_object">MyObject</string>
+    <string name="no_manager_saved">no manager saved</string>
+    <string name="edit_game___configuration">\Edit Game %1$s Configuration\</string>
+    <string name="game___configuration">\Game %1$s Configuration\</string>
+    <string name="add_new_game_config">Add New Game Config</string>
+    <string name="game_name_is_too_long">Game name is too long</string>
+    <string name="sorry_game_name_is_too_long_try_shorter">Sorry, the game name is too long. Please try a shorter name</string>
+    <string name="Ok">Ok</string>
+    <string name="game_score_is_too_long">Score length is too long</string>
+    <string name="sorry_score_is_too_long_please_try_shorter">Sorry, score length is too long. Please try a number of shorter length</string>
+    <string name="ERROR_text_fields_cannot_be_empty">ERROR: Text fields cannot be empty. Please enter correct values and try again</string>
+    <string name="poor_score_must_be_less_than_great_score_try_again">Poor score must be less than great score. Try again</string>
+    <string name="date_format">MMM dd, y @ h:mma</string>
+    <string name="too_many_players">Too many players</string>
+    <string name="Sorry_too_many_players">Sorry, that\'s too many players. Please try a smaller number</string>
+    <string name="worst_game_level_score_boundary_fruits"><![CDATA[\Beautiful Bananas : Score < \]]></string>
+    <string name="worst_game_level_range_boundary_fruits"><![CDATA[\Beautiful Bananas : Range < \]]></string>
+    <string name="best_level_score_boundary_fruits"><![CDATA[\Perfect Peaches : Score >= \]]></string>
+    <string name="best_level_range_boundary_fruits"><![CDATA[\Perfect Peaches : Range >= \]]></string>
+    <string name="worst_game_level_score_boundary_fantasy"><![CDATA[\Stinky Orc : Score < \]]></string>
+    <string name="worst_game_level_range_boundary_fantasy"><![CDATA[\Stinky Orc : Range < \]]></string>
+    <string name="best_level_score_boundary_fantasy"><![CDATA[\Azure Dragon : Score >= \]]></string>
+    <string name="best_level_range_boundary_fantasy"><![CDATA[\Azure Dragon : Range >= \]]></string>
+    <string name="worst_game_level_score_boundary_starwars"><![CDATA[\Grogu : Score < \]]></string>
+    <string name="worst_game_level_range_boundary_starwars"><![CDATA[\Grogu : Range < \]]></string>
+    <string name="best_level_score_boundary_starwars"><![CDATA[\Leia Organa : Score >= \]]></string>
+    <string name="best_level_range_boundary_starwars"><![CDATA[\Leia Organa : Range >= \]]></string>
+    <string name="score_part1">\ Score : [\</string>
+    <string name="score_part2"> ]\n</string>
+    <string name="display_string_option">"%1s "</string>
+    <string name="select_theme_prompt">Select a theme</string>
+    <string name="achievement_title">Your achievement is...</string>
+    <string name="easyDifficulty">Easy</string>
+    <string name="normalDifficulty">Normal</string>
+    <string name="hardDifficulty">Hard</string>
+    <string name="got_highest_level_msg">You got the highest level!</string>
+    <string name="you_were_msg">You were</string>
+    <string name="points_away_msg">points away\n from getting</string>
+    <string name="fruits_theme_name">Fruits</string>
+    <string name="fantasy_theme_name">Fantasy</string>
+    <string name="starwars_theme_name">Star Wars</string>
+    <string name="fruits_levels_with_num">
+        1.Beautiful Bananas\n\n
+        2.Wonderful Watermelons\n\n
+        3.Outstanding Oranges\n\n
+        4.Admirable Apricots\n\n
+        5.Good Grapefruits\n\n
+        6.Amazing Apples\n\n
+        7.Great Grapes\n\n
+        8.Better Blueberries\n\n
+        9.Super Strawberries\n\n
+        10.Perfect Peaches
+    </string>
+    <string name="fantasy_levels_with_num">
+        1.Stinky Orc\n\n
+        2.Friendly Troll\n\n
+        3.Grumpy Dwarf\n\n
+        4.High Elf\n\n
+        5.Powerful Lich\n\n
+        6.Golden Pegasus\n\n
+        7.Ferocious Minotaur\n\n
+        8.Majestic Unicorn\n\n
+        9.Shadow Wyvern\n\n
+        10.Azure Dragon
+    </string>
+    <string name="starwars_levels_with_num">
+        1.Grogu\n\n
+        2.Chewbacca\n\n
+        3.Anakin\n\n
+        4.Cara Dune\n\n
+        5.Ahsoka Tano\n\n
+        6.Luke Skywalker\n\n
+        7.Yoda\n\n
+        8.Darth Vader\n\n
+        9.Asajj Ventress\n\n
+        10.Leia Organa\n\n\n
+    </string>
+    <string name="achievement_stats_null">Sorry. The game configuration selected was not set up with achievement statistics.\nPlease delete this configuration and add a new game configuration to have access to new features from this iteration!</string>
+    <string name="checkLevelNamesMsg">To check which levels matches with which level number, click \'Levels\'</string>
+    <string name="new_photo_alert_dialog">New Photo?</string>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoopApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewImage"
+            android:exported="false"
+            android:parentActivityName=".ViewConfiguration"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AchievementStatistics"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="Achievement Statistics"
+            android:parentActivityName=".ViewConfiguration">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AchievementCelebration"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="Achievement Celebration"
+            android:parentActivityName=".ViewConfiguration"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GameHistory"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/gameHistory"
+            android:parentActivityName=".ViewConfiguration"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddNewGame"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/addNewGame"
+            android:parentActivityName=".ViewConfiguration"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ViewConfiguration"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddEditConfiguration"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="Add New Game Configuration"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/about"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ViewAchievements"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/viewAchievements"
+            android:parentActivityName=".ViewConfiguration"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground">
+
+    <TextView
+        android:id="@+id/txtGameName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Name"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/inputName"
+        app:layout_constraintEnd_toStartOf="@+id/inputName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/inputName" />
+
+    <TextView
+        android:id="@+id/txtExpectedPoorScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expected Poor Score"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/inputLowScore"
+        app:layout_constraintEnd_toStartOf="@+id/inputLowScore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/inputLowScore" />
+
+    <TextView
+        android:id="@+id/txtExpectedGreatScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expected Great Score"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/inputHighScore"
+        app:layout_constraintEnd_toStartOf="@+id/inputHighScore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/inputHighScore" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177" />
+
+    <Button
+        android:id="@+id/saveConfigBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputHighScore" />
+
+    <EditText
+        android:id="@+id/inputLowScore"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toEndOf="@+id/inputName"
+        app:layout_constraintStart_toStartOf="@+id/inputName"
+        app:layout_constraintTop_toBottomOf="@+id/inputName" />
+
+    <EditText
+        android:id="@+id/inputHighScore"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintEnd_toEndOf="@+id/inputLowScore"
+        app:layout_constraintStart_toStartOf="@+id/inputLowScore"
+        app:layout_constraintTop_toBottomOf="@+id/inputLowScore" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

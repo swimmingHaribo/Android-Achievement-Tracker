@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fruitsTheme">
+        <item name="android:windowBackground">@drawable/fruitsbackground</item>
+    </style>
+    <style name="fantasyTheme">
+        <item name="android:windowBackground">@drawable/fantasybackground</item>
+    </style>
+    <style name="starWarsTheme">
+        <item name="android:windowBackground">@drawable/starwarsbackground</item>
+    </style>
+</resources>

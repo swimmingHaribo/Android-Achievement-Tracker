@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground"
+    tools:context=".ViewConfiguration">
+
+    <TextView
+        android:id="@+id/txtPoorScoreConfigView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poor Score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+
+    <TextView
+        android:id="@+id/txtGreatScoreConfigView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Great Score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/textFillGreatScoreConfigView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtPoorScoreConfigView"
+        app:layout_constraintTop_toBottomOf="@+id/txtPoorScoreConfigView" />
+
+    <TextView
+        android:id="@+id/textFillPoorScoreConfigView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtPoorScoreConfigView"
+        app:layout_constraintTop_toTopOf="@+id/txtPoorScoreConfigView" />
+
+    <TextView
+        android:id="@+id/textFillGreatScoreConfigView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/textFillPoorScoreConfigView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textFillPoorScoreConfigView"
+        app:layout_constraintTop_toTopOf="@+id/txtGreatScoreConfigView" />
+
+    <Button
+        android:id="@+id/btnEditConfig"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="95dp"
+        android:text="Edit"
+        app:layout_constraintStart_toStartOf="@+id/btnHistoryConfig"
+        app:layout_constraintTop_toBottomOf="@+id/btnHistoryConfig" />
+
+    <Button
+        android:id="@+id/btnHistoryConfig"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="21dp"
+        android:text="View Games History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtGreatScoreConfigView" />
+
+    <Button
+        android:id="@+id/btnDeleteConfig"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="Delete"
+        app:layout_constraintStart_toStartOf="@+id/btnHistoryConfig"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditConfig" />
+
+    <Button
+        android:id="@+id/addGameBtn"
+        android:layout_width="195dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:text="Add New Game"
+        app:layout_constraintEnd_toEndOf="@+id/btnHistoryConfig"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toEndOf="@+id/btnEditConfig"
+        app:layout_constraintTop_toTopOf="@+id/btnEditConfig" />
+
+    <Button
+        android:id="@+id/viewAchievementsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="View Achievements"
+        app:layout_constraintEnd_toEndOf="@+id/image_history"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toEndOf="@+id/btnDeleteConfig"
+        app:layout_constraintTop_toBottomOf="@+id/addGameBtn" />
+
+    <ImageView
+        android:id="@+id/image_history"
+        android:layout_width="275dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_history_msg"
+        android:windowBackground="#00000000"
+        app:layout_constraintEnd_toEndOf="@+id/textFillGreatScoreConfigView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtGreatScoreConfigView"
+        app:layout_constraintTop_toBottomOf="@+id/txtGreatScoreConfigView" />
+
+    <Button
+        android:id="@+id/achievementStatsBtn"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="Achievement Statistics"
+        app:layout_constraintEnd_toEndOf="@+id/btnHistoryConfig"
+        app:layout_constraintStart_toStartOf="@+id/btnHistoryConfig"
+        app:layout_constraintTop_toBottomOf="@+id/btnHistoryConfig" />
+
+    <ImageView
+        android:id="@+id/configImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:maxHeight="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/image_history"
+        app:layout_constraintEnd_toStartOf="@+id/txtPoorScoreConfigView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

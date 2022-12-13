@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollPopUp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/containerPopUp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/closeBtn"
+                android:layout_width="24dp"
+                android:layout_height="26dp"
+                android:background="@drawable/closebutton" />
+
+            <Button
+                android:id="@+id/fruitsLevelsBtn"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/fruits_theme_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/container"
+                app:layout_constraintVertical_bias="0.002" />
+
+            <TextView
+                android:id="@+id/fruitsLevelsWithNums"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="#000000"
+                android:textColorLink="#2434A5"
+                app:layout_constraintBottom_toTopOf="@+id/fantasyLevelsBtn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fruitsLevelsBtn"
+                app:layout_constraintVertical_bias="0.002" />
+
+            <Button
+                android:id="@+id/fantasyLevelsBtn"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/fantasy_theme_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/info_content"
+                app:layout_constraintVertical_bias="0.002" />
+
+            <TextView
+                android:id="@+id/fantasyLevelsWithNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="#000000"
+                android:textColorLink="#2434A5"
+                app:layout_constraintBottom_toTopOf="@+id/starwarsLevelsBtn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fantasyLevelsBtn"
+                app:layout_constraintVertical_bias="0.002" />
+
+            <Button
+                android:id="@+id/starwarsLevelsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/starwars_theme_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/description_content"
+                app:layout_constraintVertical_bias="0.002" />
+
+            <TextView
+                android:id="@+id/starwarsLevelsWithNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/starwarsLevelsBtn"
+                app:layout_constraintVertical_bias="0.002" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

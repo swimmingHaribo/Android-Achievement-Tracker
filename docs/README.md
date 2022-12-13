@@ -4,7 +4,7 @@
 - [Demo video](https://youtu.be/c3wQJ9Rmlvk)
 - Works on 5", 6", 10" sized screens
 
-## Install
+## Installation
 1. [Download Android Studio](https://developer.android.com/studio)
 2. Download the zip file
 3. Select a device (eg. Pixel 2)

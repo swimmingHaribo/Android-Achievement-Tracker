@@ -3,6 +3,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 - [Demo video](https://youtu.be/c3wQJ9Rmlvk)
 - Works on 5", 6", 10" sized screens
+- Created on GitLab, so there are not many commits here
 
 ## Installation
 

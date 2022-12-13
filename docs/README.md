@@ -3,6 +3,14 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 - [Demo video](https://youtu.be/c3wQJ9Rmlvk)
 - Works on 5", 6", 10" sized screens
+
+## Install
+1. [Download Android Studio](https://developer.android.com/studio)
+2. Download the zip file
+3. Select a device (eg. Pixel 2)
+4. Time to run it!
+
+## Feature
 ### Configurations Application
 - This is an application to store game configurations and game plays for saved games.
 - User can create games with expected min and max scores and add new games for multiple players with individual scores scores and set difficulty to that games.

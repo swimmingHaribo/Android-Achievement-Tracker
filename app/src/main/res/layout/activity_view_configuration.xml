@@ -16,17 +16,16 @@
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintHorizontal_bias="0.658"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.100000024" />
-
+        app:layout_constraintVertical_bias="0.099" />
 
     <TextView
         android:id="@+id/txtGreatScoreConfigView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:text="Great Score"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
@@ -39,11 +38,12 @@
         android:id="@+id/textFillPoorScoreConfigView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="20dp"
         android:text="0"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
         app:layout_constraintStart_toEndOf="@+id/txtPoorScoreConfigView"
         app:layout_constraintTop_toTopOf="@+id/txtPoorScoreConfigView" />
 
@@ -114,17 +114,16 @@
 
     <ImageView
         android:id="@+id/image_history"
-        android:layout_width="275dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="25dp"
         android:adjustViewBounds="true"
         android:background="@null"
         android:scaleType="fitXY"
         android:src="@drawable/ic_history_msg"
         android:windowBackground="#00000000"
-        app:layout_constraintEnd_toEndOf="@+id/textFillGreatScoreConfigView"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/txtGreatScoreConfigView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtGreatScoreConfigView" />
 
     <Button
@@ -146,8 +145,10 @@
         android:maxHeight="150dp"
         app:layout_constraintBottom_toTopOf="@+id/image_history"
         app:layout_constraintEnd_toStartOf="@+id/txtPoorScoreConfigView"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616"
         app:srcCompat="@drawable/ic_launcher_background"
         tools:srcCompat="@drawable/ic_launcher_background" />
 

@@ -2,7 +2,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/made-with-java.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 - [Demo video](https://youtu.be/c3wQJ9Rmlvk)
-
+- Works on 5", 6", 10" sized screens
 ### Configurations Application
 - This is an application to store game configurations and game plays for saved games.
 - User can create games with expected min and max scores and add new games for multiple players with individual scores scores and set difficulty to that games.

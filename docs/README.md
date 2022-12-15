@@ -9,6 +9,7 @@
 - Works on 5", 6", 10" sized screens
 - Kids friendly
 - Created on GitLab, so there are not many commits here
+- Application mode is set to portrait mode only
 
 ## Installation
 
@@ -21,7 +22,6 @@
 3. Select a device (eg. Pixel 2)
 4. Time to run it!
 
-
 ## Feature
 
 ### Configurations Application
@@ -32,6 +32,13 @@ This is an application to store game configurations and game plays for saved gam
 - Users can view achievements for a given number of players with different game difficulty and theme, view history, edit and delete game configuration.
 - Game configurations and game plays are saved between launches of the application.
 - When viewing the achievement screen, users are allowed to view a list of achievement levels for an existing game configuration.
+
+### Game Plays
+- When a user clicks a game from the game configuration list, they are taken to view configuration where they have the buttons when clicked to add a new game, view achievement levels for number of players inputted, edit, and delete game configuration. 
+- Users can see the history of a game when there is at least one game played.
+- Scores can be whole numbers and negative numbers. Decimals are not allowed.
+- User can enter scores less than expected min score resulting in them achieving the worst level.
+- A drop-down menu is added in add new game for convenience. This allows the user to change the game configuration to add a new game without going back to the list of configurations. Users can still access every game through the configuration list.
 
 ### Game Played Difficulty
 Each time user plays a game, users are allowed to select a difficulty level for that specific game play.
@@ -59,6 +66,7 @@ When using the score calculator to add up player scores while recording a game p
 - There is a button added called 'Levels' for convenience. When user clicks the button they will see a pop-up window with three buttons for the themes that when clicked, will display the number associated with each achievement theme. The 'X' button will close the pop-up. There is also a message that displays that statistics will not be displayed when user clicks configuration that was made from previous iterations, but user should delete the configs from previous iterations.
 
 ### Achievement Celebration
+- Each theme has their own image and own sound and own animation.
 - When user reaches highest level, it tells the user they got the highest level instead of displaying how many points away they are from the next level.
 - When viewing the achievement celebration page, users are able to replay the animation and change the theme.
 

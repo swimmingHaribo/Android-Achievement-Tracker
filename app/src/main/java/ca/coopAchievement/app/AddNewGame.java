@@ -118,7 +118,7 @@ public class AddNewGame extends AppCompatActivity {
             numOfPlayerFromUser.setText("2");
             tv_numOfPlayer.setText(R.string.num_player);
             createDifficultyRadioButtons();
-            viewImageBtn.setVisibility(View.GONE);
+            viewImageBtn.setVisibility(View.INVISIBLE);
         }
         storeSelectedAchievementTheme();
     }

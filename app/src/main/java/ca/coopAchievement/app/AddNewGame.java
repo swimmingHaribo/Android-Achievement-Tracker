@@ -104,7 +104,7 @@ public class AddNewGame extends AppCompatActivity {
             edList_temp.clear();
             indexOfGame = bundle.getInt("selected game"); // get selected game position from game history
             dropdown.setVisibility(View.GONE);
-            tv_numOfPlayer.setText("Number of Player:");
+            //tv_numOfPlayer.setText("Number of Player:");
             setVariablesFromExistingGame(indexOfGame);
             resetDifficultyRadioButtons(indexOfGame);
             saveInputForEditGame(manager.getIndexOfCurrentConfiguration());
@@ -116,7 +116,7 @@ public class AddNewGame extends AppCompatActivity {
             getSupportActionBar().setTitle("Add New Game");
             dropdown.setVisibility(View.VISIBLE);
             numOfPlayerFromUser.setText("2");
-            tv_numOfPlayer.setText(R.string.num_player);
+            //tv_numOfPlayer.setText(R.string.num_player);
             createDifficultyRadioButtons();
             viewImageBtn.setVisibility(View.INVISIBLE);
         }

@@ -72,13 +72,13 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:weightSum="2">
+                android:weightSum="3">
 
                 <TextView
                     android:id="@+id/num_players"
                     android:layout_width="0dip"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1.05"
+                    android:layout_weight="1.7"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="120dp"
                     android:text="@string/num_player"
@@ -88,11 +88,21 @@
                     android:id="@+id/num_players_input"
                     android:layout_width="0dip"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_weight="0.65"
+                    android:gravity="center"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/set_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
                     android:layout_marginTop="125dp"
                     android:layout_marginEnd="15dp"
-                    android:layout_weight="0.95"
-                    android:inputType="number" />
+                    android:layout_weight="0.65"
+                    android:text="Set" />
 
             </LinearLayout>
 
@@ -109,7 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="2">
 
                 <Button
                     android:id="@+id/save_btn"
@@ -120,15 +130,15 @@
                     android:layout_weight="1"
                     android:text="Save Game" />
 
-                <Button
-                    android:id="@+id/set_btn"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="200dp"
-                    android:layout_marginEnd="1dp"
-                    android:layout_weight="1"
-                    android:text="Set Players" />
+<!--                <Button-->
+<!--                    android:id="@+id/set_btn"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="200dp"-->
+<!--                    android:layout_marginEnd="1dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:text="Set Players" />-->
 
                 <Button
                     android:id="@+id/view_image_btn"
@@ -149,7 +159,8 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="10dp"
                 android:orientation="vertical"
-                android:layout_marginTop="250dp">
+                android:layout_marginTop="260dp"
+                android:layout_marginBottom="30dp">
 
             </LinearLayout>
 

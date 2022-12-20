@@ -186,10 +186,10 @@ public class AddNewGame extends AppCompatActivity {
                 combinedScores = 0;
                 edList.clear();
                 // call function according to current selection
-                checkInput(selectedConfigPosition);
+                checkPlayerInput(selectedConfigPosition);
                 setSetBtn();
-                createFields(2);
-                saveInput(selectedConfigPosition);
+                createDefaultFields(2);
+                saveInputForAddNewGame(selectedConfigPosition);
             }
             public void onNothingSelected(AdapterView<?> arg0) {}
         });
@@ -260,7 +260,7 @@ public class AddNewGame extends AppCompatActivity {
 
 
     // check if user input player is valid
-    private void checkInput(int selectedGameInt){
+    private void checkPlayerInput(int selectedGameInt){
         numOfPlayerFromUser = findViewById(R.id.num_players_input);
         playerMsg = findViewById(R.id.player_msg); // alert message
         playerMsg.setTextColor(getResources().getColor(R.color.purple_700));
@@ -319,7 +319,7 @@ public class AddNewGame extends AppCompatActivity {
 
 
     // create textview // create edittext and return edittext
-    private EditText createRightFields(){
+    private EditText createEditTextAndTextView(){
         // add textview
         LinearLayout ll_test = findViewById(R.id.ll_test);
         LinearLayout ll_both = new LinearLayout(this);
@@ -400,7 +400,7 @@ public class AddNewGame extends AppCompatActivity {
 
 
                     isScoresValid = false;
-                    createFieldsAgain(numOfPlayers);
+                    createFieldsAgainForAddNewGame(numOfPlayers);
                 }
                     else if(isPlayerValid) {
                         createFieldsAgainForEditGame(numOfPlayers);
@@ -421,18 +421,18 @@ public class AddNewGame extends AppCompatActivity {
         return isScoresValid;
     }
 
-    private void createFields(int numOfPlayers){
+    private void createDefaultFields(int numOfPlayers){
         numOfPlayerFromUser = findViewById(R.id.num_players_input);
         numOfPlayerFromUser.setText(""+ numOfPlayers);
         for (int i = 0; i < numOfPlayers; i++) {
-            edList.push(createRightFields());
+            edList.push(createEditTextAndTextView());
         }
 
         temp = numOfPlayers;
 
     }
 
-    private void createFieldsAgain(int numOfPlayers){
+    private void createFieldsAgainForAddNewGame(int numOfPlayers){
 
         LinearLayout ll_test = findViewById(R.id.ll_test);
         if(temp < numOfPlayers) {
@@ -447,7 +447,7 @@ public class AddNewGame extends AppCompatActivity {
             int count2 = edList.size();
 
             for (int i = temp; i < numOfPlayers; i++) {
-                edList.push(createRightFields());
+                edList.push(createEditTextAndTextView());
             }
 
 
@@ -495,7 +495,7 @@ public class AddNewGame extends AppCompatActivity {
             int count = edList.size();
 
             for (int i = temp; i < numOfPlayers; i++) {
-                edList.push(createRightFields());
+                edList.push(createEditTextAndTextView());
             }
 
             int count2 = 0;
@@ -563,8 +563,8 @@ public class AddNewGame extends AppCompatActivity {
 
         indexOfPlayer = 0;
         indexOfScore = 0;
-        checkInput(currentConfigPosition);
-        createFields(numOfPlayers);
+        checkPlayerInput(currentConfigPosition);
+        createDefaultFields(numOfPlayers);
         setSetBtn();
 
         for (int i = 0; i < edList.size(); i++) {
@@ -679,7 +679,7 @@ public class AddNewGame extends AppCompatActivity {
     }
 
     // save input to the list in add new game screen
-    private void saveInput(int selectedGameInt) {
+    private void saveInputForAddNewGame(int selectedGameInt) {
         Button save = findViewById(R.id.save_btn);
         save.setOnClickListener(v -> {
             validateFields();

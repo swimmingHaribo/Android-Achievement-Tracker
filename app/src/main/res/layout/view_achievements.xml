@@ -17,9 +17,9 @@
 
     <TextView
         android:id="@+id/listOfAchievements"
-        android:layout_width="267dp"
-        android:layout_height="343dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="346dp"
+        android:layout_height="395dp"
+        android:layout_marginTop="40dp"
         android:text=""
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/userInputPlayers"
@@ -31,11 +31,11 @@
         android:id="@+id/txtEnterPlayers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="85dp"
         android:text="Enter players: "
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/dropdownThemeAchievements"
-        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintHorizontal_bias="0.101"
         app:layout_constraintStart_toStartOf="@+id/dropdownThemeAchievements"
         app:layout_constraintTop_toBottomOf="@+id/dropdownThemeAchievements" />
 
@@ -44,22 +44,24 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="@+id/dropdownThemeAchievements"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toEndOf="@+id/txtEnterPlayers"
-        app:layout_constraintTop_toTopOf="@+id/txtEnterPlayers" />
+        app:layout_constraintTop_toBottomOf="@+id/dropdownThemeAchievements" />
 
     <TextView
         android:id="@+id/emptyAchievementsList"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="381dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="20dp"
         android:text="@string/empty_achievements_msg"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/userInputPlayers"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtEnterPlayers"
         app:layout_constraintVertical_bias="0.349" />

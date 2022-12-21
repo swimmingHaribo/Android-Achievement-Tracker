@@ -11,6 +11,7 @@
         android:id="@+id/stats_graph"
         android:layout_width="319dp"
         android:layout_height="392dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/statisticsMsg"></com.github.mikephil.charting.charts.BarChart>
@@ -18,27 +19,27 @@
     <TextView
         android:id="@+id/statisticsMsg"
         android:layout_width="206dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
         android:text="@string/checkLevelNamesMsg"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/levelsBtn"
-        android:layout_width="86dp"
-        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Levels"
-        android:textSize="11sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/statisticsMsg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.368"
         app:layout_constraintStart_toEndOf="@+id/statisticsMsg"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.785" />
 
     <TextView
         android:id="@+id/xaxisLabel"
@@ -46,7 +47,7 @@
         android:layout_height="wrap_content"
         android:text="Achievement Level Number"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/stats_graph"
         app:layout_constraintTop_toBottomOf="@+id/stats_graph" />

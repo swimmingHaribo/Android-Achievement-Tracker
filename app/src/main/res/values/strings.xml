@@ -140,40 +140,43 @@
     <string name="fantasy_theme_name">Fantasy</string>
     <string name="starwars_theme_name">Star Wars</string>
     <string name="fruits_levels_with_num">
-        1.Beautiful Bananas\n\n
-        2.Wonderful Watermelons\n\n
-        3.Outstanding Oranges\n\n
-        4.Admirable Apricots\n\n
-        5.Good Grapefruits\n\n
-        6.Amazing Apples\n\n
-        7.Great Grapes\n\n
-        8.Better Blueberries\n\n
-        9.Super Strawberries\n\n
-        10.Perfect Peaches
+        \n
+        1. Beautiful Bananas\n\n
+        2. Wonderful Watermelons\n\n
+        3. Outstanding Oranges\n\n
+        4. Admirable Apricots\n\n
+        5. Good Grapefruits\n\n
+        6. Amazing Apples\n\n
+        7. Great Grapes\n\n
+        8. Better Blueberries\n\n
+        9. Super Strawberries\n\n
+        10. Perfect Peaches
     </string>
     <string name="fantasy_levels_with_num">
-        1.Stinky Orc\n\n
-        2.Friendly Troll\n\n
-        3.Grumpy Dwarf\n\n
-        4.High Elf\n\n
-        5.Powerful Lich\n\n
-        6.Golden Pegasus\n\n
-        7.Ferocious Minotaur\n\n
-        8.Majestic Unicorn\n\n
-        9.Shadow Wyvern\n\n
-        10.Azure Dragon
+        \n
+        1. Stinky Orc\n\n
+        2. Friendly Troll\n\n
+        3. Grumpy Dwarf\n\n
+        4. High Elf\n\n
+        5. Powerful Lich\n\n
+        6. Golden Pegasus\n\n
+        7. Ferocious Minotaur\n\n
+        8. Majestic Unicorn\n\n
+        9. Shadow Wyvern\n\n
+        10. Azure Dragon
     </string>
     <string name="starwars_levels_with_num">
-        1.Grogu\n\n
-        2.Chewbacca\n\n
-        3.Anakin\n\n
-        4.Cara Dune\n\n
-        5.Ahsoka Tano\n\n
-        6.Luke Skywalker\n\n
-        7.Yoda\n\n
-        8.Darth Vader\n\n
-        9.Asajj Ventress\n\n
-        10.Leia Organa\n\n\n
+        \n
+        1. Grogu\n\n
+        2. Chewbacca\n\n
+        3. Anakin\n\n
+        4. Cara Dune\n\n
+        5. Ahsoka Tano\n\n
+        6. Luke Skywalker\n\n
+        7. Yoda\n\n
+        8. Darth Vader\n\n
+        9. Asajj Ventress\n\n
+        10. Leia Organa\n\n\n
     </string>
     <string name="achievement_stats_null">Sorry. The game configuration selected was not set up with achievement statistics.\nPlease delete this configuration and add a new game configuration to have access to new features from this iteration!</string>
     <string name="checkLevelNamesMsg">To check which levels matches with which level number, click \'Levels\'</string>

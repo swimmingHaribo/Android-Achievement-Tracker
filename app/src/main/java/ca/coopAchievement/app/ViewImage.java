@@ -64,6 +64,7 @@ public class ViewImage extends AppCompatActivity {
         ActionBar bar = getSupportActionBar();
         bar.setDisplayHomeAsUpEnabled(true);
 
+        //File path = new File(Environment.getExternalStorageDirectory().getPath() + "/images/").path.mkdirs();
         UpdateImageUI();
     }
 
@@ -165,7 +166,7 @@ public class ViewImage extends AppCompatActivity {
         switch (requestCode) {
             case CAMERA_PERMISSION_CODE:
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    openCamera();
+                    //openCamera();
                 } else {
                     Toast.makeText(this, "Camera Permission is required to use camera", Toast.LENGTH_SHORT).show();
                     break;
@@ -187,7 +188,13 @@ public class ViewImage extends AppCompatActivity {
 
     private void openCamera() {
         Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        //cameraIntent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT, Uri.fromFile(new File(imagePath)));
+        //startActivityForResult(intent, 11);
         startActivityForResult(cameraIntent, CAMERA_REQUEST_CODE);
+
+//        Intent cameraIntent2 = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+//        startActivityForResult(cameraIntent2, CAMERA_REQUEST);
+
     }
 
     @Override

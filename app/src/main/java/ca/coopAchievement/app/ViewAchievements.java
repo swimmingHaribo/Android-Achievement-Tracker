@@ -235,14 +235,14 @@ public class ViewAchievements extends AppCompatActivity {
         //Worst range level depends on selected theme in radio button
         if (theme.equals(FANTASY)){
             return getString(R.string.worst_game_level_range_boundary_fantasy) //Add worse range than expected lowest range achievement level
-                    + minScore + "\n";
+                    + minScore + "\n\n";
         }
         if (theme.equals(STAR_WARS)){
             return  getString(R.string.worst_game_level_range_boundary_starwars) //Add worse range than expected lowest range achievement level
-                    + minScore + "\n";
+                    + minScore + "\n\n";
         }
         return getString(R.string.worst_game_level_range_boundary_fruits) //Add worse range than expected lowest range achievement level
-                + minScore + "\n";
+                + minScore + "\n\n";
     }
 
     private String getBestRangeOfTheme(String theme, int newStartRange){
@@ -297,16 +297,16 @@ public class ViewAchievements extends AppCompatActivity {
                 achievementLevels += " Range: [";
                 if (i == 1) {
                     achievementLevels += minScore;
-                    achievementLevels += ", " + (minScore + range) + "]\n";
+                    achievementLevels += ", " + (minScore + range) + "]\n\n";
                     newStartRange = (minScore + range);
                 } else if (newStartRange + range > Math.abs(maxScore)) {
-                    achievementLevels += "" + (newStartRange + 1) + ", " + (maxScore) + "]\n";
+                    achievementLevels += "" + (newStartRange + 1) + ", " + (maxScore) + "]\n\n";
                     newStartRange = maxScore;
                     lessThanEightLevels = true;
                 } else if (i == achievements.getNumOfBoundedLevels()) {
-                    achievementLevels += "" + (newStartRange) + ", " + (maxScore) + "]\n";
+                    achievementLevels += "" + (newStartRange) + ", " + (maxScore) + "]\n\n";
                 } else {
-                    achievementLevels += "" + (newStartRange + 1) + ", " + (newStartRange + 1 + range) + "]\n";
+                    achievementLevels += "" + (newStartRange + 1) + ", " + (newStartRange + 1 + range) + "]\n\n";
                     newStartRange += 1 + range;
                 }
             } else{

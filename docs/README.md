@@ -53,7 +53,7 @@
 
 ###
 
- Edit game                 | View image                | View game history         | View achievements         | About/Help
+ Edit game                 | View image                | Game history              | View achievements         | About/Help
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Manage%20image.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20history.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/View%20achievement.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/About.png" width="220">
 

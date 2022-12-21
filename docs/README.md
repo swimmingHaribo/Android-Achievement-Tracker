@@ -36,27 +36,26 @@
 
   Empty config listview    | Add game config           | Non-empty config listview | Game config without games |  Game config with games
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/First%20page.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Add%20new%20game%20config.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Non%20empty%20config%20list.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20config.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20config%20with%20game.png)
+<img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/First%20page.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Add%20new%20game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Non%20empty%20config%20list.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20config%20with%20game.png" width="220">
 
 
 ###
 
   Edit game config         | Delete game config        | Achievement statistics   |  Statistics levels
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game%20config.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Delete%20game%20config.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Achievement%20stat.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Stat%20levels.png)
+<img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Delete%20game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Achievement%20stat.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Stat%20levels.png" width="220">
 
 ###
-
+  
   Default add new game     | Custom add new game       |  Add photo for new game   |  Animation after addition
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Default%20add%20new%20game.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Custom%20add%20new%20game.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Add%20photo%20for%20new%20game.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Animation.png)
-
+<img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Default%20add%20new%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Custom%20add%20new%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Add%20photo%20for%20new%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Animation.png" width="220">
 
 ###
+
  Edit game                 | View image                | View game history         | View achievements         | About/Help
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Manage%20image.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20history.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/View%20achievement.png)  |  ![](https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/About.png)
-
+<img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Manage%20image.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20history.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/View%20achievement.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/About.png" width="220">
 
 
 ## About

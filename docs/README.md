@@ -45,19 +45,42 @@
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Delete%20game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Achievement%20stat.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Stat%20levels.png" width="220">
 
-###
-  
-  Default add new game     | Custom add new game       |  Add photo for new game   |  Animation after addition
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Default%20add%20new%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Custom%20add%20new%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Add%20photo%20for%20new%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Animation.png" width="220">
 
 ###
-
- Edit game                 | View / Manage image         | View game history         | View achievements         | About / Help
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Manage%20image.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20history.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/View%20achievement.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/About.png" width="220">
-
-
+<table width="100%">
+  <tr>
+     <td align="center">Default add new game</td>
+     <td align="center">Custom add new game</td>
+     <td align="center">Add photo for new game</td>
+     <td align="center">Animation after addition</td>
+  </tr>
+  <tr>
+    <td valign="top" width="23%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Default%20add%20new%20game.png"></td>
+    <td valign="top" width="23%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Custom%20add%20new%20game.png"></td>
+    <td valign="top" width="23%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Add%20photo%20for%20new%20game.png"></td>
+    <td valign="top" width="23%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Animation.png"></td>
+  </tr>
+ </table>
+ 
+###
+<table width="100%">
+  <tr>
+     <td align="center">Edit game</td>
+     <td align="center">View/Manage image</td>
+     <td align="center">View game history</td>
+     <td align="center">View achievements</td>
+     <td align="center">About/Help</td>
+  </tr>
+  <tr>
+    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game.png"></td>
+    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Manage%20image.png"></td>
+    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20history.png"></td>
+    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/View%20achievement.png"></td>
+    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/About.png"></td>
+  </tr>
+ </table>
+ 
+ 
 ## About
 ### Configurations Application
 This is an application to store game configurations and game plays for saved games.

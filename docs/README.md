@@ -34,17 +34,39 @@
 </p> -->
 
 
-  Empty config listview    | Add game config           | Non-empty config listview | Game config without games |  Game config with games
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/First%20page.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Add%20new%20game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Non%20empty%20config%20list.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20config%20with%20game.png" width="220">
-
+###
+<table width="100%">
+  <tr>
+     <td align="center">Empty config listview</td>
+     <td align="center">Add game config</td>
+     <td align="center">Custom config listview</td>
+     <td align="center">Game config without games</td>
+     <td align="center">Game config with games</td>
+  </tr>
+  <tr>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/First%20page.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Add%20new%20game%20config.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Non%20empty%20config%20list.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20config.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20config%20with%20game.png"></td>
+  </tr>
+ </table>
 
 ###
-
-  Edit game config         | Delete game config        | Achievement statistics   |  Statistics levels
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Delete%20game%20config.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Achievement%20stat.png" width="220"> | <img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Stat%20levels.png" width="220">
-
+<table width="100%">
+  <tr>
+     <td align="center">Edit game config</td>
+     <td align="center">Delete game config</td>
+     <td align="center">Achievement statistics</td>
+     <td align="center">Statistics levels</td>
+  </tr>
+  <tr>
+    <td valign="top" width="23%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game%20config.png"></td>
+    <td valign="top" width="23%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Delete%20game%20config.png"></td>
+    <td valign="top" width="23%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Achievement%20stat.png"></td>
+    <td valign="top" width="23%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Stat%20levels.png"></td>
+  </tr>
+ </table>
 
 ###
 <table width="100%">
@@ -72,11 +94,11 @@
      <td align="center">About/Help</td>
   </tr>
   <tr>
-    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game.png"></td>
-    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Manage%20image.png"></td>
-    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20history.png"></td>
-    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/View%20achievement.png"></td>
-    <td valign="top" width="17%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/About.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Edit%20game.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Manage%20image.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/Game%20history.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/View%20achievement.png"></td>
+    <td valign="top" width="18%"><img src="https://github.com/swimmingHaribo/Android-Coop-Achievement/blob/main/screenshot/About.png"></td>
   </tr>
  </table>
  

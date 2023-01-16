@@ -72,7 +72,7 @@ public class AddNewGame extends AppCompatActivity {
     private int currentConfigPosition = 0;
     private String gameTheme;
     private boolean isEditing;
-    private int temp;
+    private int temp; // the previous round of add new game
     private Stack<EditText> edList = new Stack<>();
     private ArrayList<String> edList_temp = new ArrayList<>();
     private int indexOfOriginalAchievementLevel;
@@ -362,8 +362,8 @@ public class AddNewGame extends AppCompatActivity {
         setBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    if(isPlayerValid && !isEditing){
-
+                    if(isPlayerValid && !isEditing){ // add new game screen
+                    // add additional ed to edList_temp
                     Iterator<EditText> iterator = edList.iterator();
 
                     if (!edList_temp.isEmpty() && edList_temp.size() < edList.size()){
@@ -377,7 +377,7 @@ public class AddNewGame extends AppCompatActivity {
                             count++;
                         }
                     }
-
+                    // update all ed in edList_temp
                     Iterator<EditText> iterator2 = edList.iterator();
 
                     if(!edList_temp.isEmpty()){
@@ -388,7 +388,7 @@ public class AddNewGame extends AppCompatActivity {
                             count++;
                         }
                     }
-
+                    // add all ed to edList_temp
                     Iterator<EditText> iterator3 = edList.iterator();
 
                     if(edList_temp.isEmpty()) {
@@ -402,7 +402,7 @@ public class AddNewGame extends AppCompatActivity {
                     isScoresValid = false;
                     createFieldsAgainForAddNewGame(numOfPlayers);
                 }
-                    else if(isPlayerValid) {
+                    else if(isPlayerValid) { // edit game screen
                         createFieldsAgainForEditGame(numOfPlayers);
                     }
             }
@@ -436,27 +436,24 @@ public class AddNewGame extends AppCompatActivity {
 
         LinearLayout ll_test = findViewById(R.id.ll_test);
         if(temp < numOfPlayers) {
+            // set old edittext
             int count = 0;
-            Iterator<EditText> iterator = edList.iterator();
-            while (iterator.hasNext()) {
-                EditText editText = (EditText) iterator.next();
+            for (EditText editText : edList) {
                 editText.setText("" + edList_temp.get(count));
-                count ++;
+                count++;
             }
 
             int count2 = edList.size();
-
+            // create numOfPlayers-temp edittext, newly added edittext
             for (int i = temp; i < numOfPlayers; i++) {
                 edList.push(createEditTextAndTextView());
             }
 
-
+            // set newly added edittext
             int count3 = 0;
-            Iterator<EditText> iterator2 = edList.iterator();
-            while (iterator2.hasNext()) {
-                EditText editText = (EditText) iterator2.next();
-                if(count2 <= count3) {
-                    if(edList_temp.size() >= count3 + 1){
+            for (EditText editText : edList) {
+                if (count2 <= count3) {
+                    if (edList_temp.size() >= count3 + 1) {
                         editText.setText("" + edList_temp.get(count3));
                     }
                 }
@@ -464,7 +461,7 @@ public class AddNewGame extends AppCompatActivity {
             }
             temp = numOfPlayers;
 
-        }else if(temp >= numOfPlayers){
+        }else { //temp >= numOfPlayers
 
             if(temp > numOfPlayers) {
                 for (int i = temp; i > numOfPlayers; i--) {
@@ -474,11 +471,9 @@ public class AddNewGame extends AppCompatActivity {
             }
 
             int count = 0;
-            Iterator<EditText> iterator = edList.iterator();
-            while (iterator.hasNext()) {
-                EditText editText = (EditText) iterator.next();
+            for (EditText editText : edList) {
                 editText.setText("" + edList_temp.get(count));
-                count ++;
+                count++;
             }
 
             indexOfPlayer = numOfPlayers;
@@ -690,9 +685,9 @@ public class AddNewGame extends AppCompatActivity {
                 manager.getItemAtIndex(selectedGameInt).add(gamePlayed);
                 // pass achievement level to appropriate theme layout in add new game screen
                 manager.setIndexOfCurrentConfiguration(selectedConfigPosition);
-                // Add level earned to achievement statistics
+                // add level earned to achievement statistics
                 manager.getItemAtIndex(selectedGameInt).addAchievementsEarnedStats(gamePlayed.getIndexLevelAchieved());
-                //display alert dialog for new image
+                // display alert dialog for new image
                 displayNewImageQuestionMsg();
             } else {
                 Toast.makeText(AddNewGame.this, R.string.emptyOrInvalid, Toast.LENGTH_SHORT).show();

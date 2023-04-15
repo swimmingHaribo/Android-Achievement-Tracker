@@ -8,7 +8,6 @@
 <img src="https://img.shields.io/badge/Testing-with%20Junit-brightgreen"/>
 <img src="https://img.shields.io/badge/commits-400%2B-informational"/>
 
-- [Demo video](https://youtu.be/Nm9FzhXkums)
 - Works on 5", 6", 10" sized screens
 - Kids friendly
 - Created on GitLab, so there are not many commits here
